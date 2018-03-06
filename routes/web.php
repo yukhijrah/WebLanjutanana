@@ -12,8 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 Route::get('/profile', function () {
-    return 'Welcome to Arena';
+    return view('profile');
+});
+Route::get('/kontak', function () {
+    return view('kontak');
 });
