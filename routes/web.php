@@ -14,9 +14,12 @@
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/profile', function () {
-    return view('profile');
+Route::get('/Home2', function () {
+    return view('/resources/views/Home2.blade.php');
 });
-Route::get('/kontak', function () {
-    return view('kontak');
+Route::get('/Profile', function () {
+    return view('/resources/views/Profile.blade.php');
+});
+Route::get('/Kontak', function () {
+    return view('/resources/views/Kontak.blade.php');
 });
